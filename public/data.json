@@ -1,6 +1,6 @@
 [
     {
-        "recipe_image": "https://example.com/images/chicken_stir_fry.jpg",
+        "recipe_image": "https://b3067249.smushcdn.com/3067249/wp-content/uploads/2016/10/chicken-thai-stir-fry-848x477.jpg?lossy=0&strip=1&webp=1",
         "recipe_id": 1,
         "recipe_name": "Chicken Stir Fry",
         "short_description": "A quick and healthy chicken stir fry with vegetables.",
@@ -16,14 +16,13 @@
         "calories": "300 calories"
     },
     {
-        "recipe_image": "https://example.com/images/spaghetti_bolognese.jpg",
+        "recipe_image": "https://www.vickery.tv/wp-content/uploads/2020/12/SMGD-Spaghetti-Bolognese.jpg",
         "recipe_id": 2,
         "recipe_name": "Spaghetti Bolognese",
         "short_description": "A classic Italian pasta dish with a rich meat sauce.",
         "ingredients": [
             "500 g ground beef",
             "400 g spaghetti",
-            "1 onion",
             "2 garlic cloves",
             "400 g canned tomatoes",
             "50 g Parmesan cheese"
@@ -32,7 +31,7 @@
         "calories": "550 calories"
     },
     {
-        "recipe_image": "https://example.com/images/vegan_curry.jpg",
+        "recipe_image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_50,w_1900/hellofresh_s3/image/vegan-chickpea-coconut-curry-d528b3ae.jpg",
         "recipe_id": 3,
         "recipe_name": "Vegan Chickpea Curry",
         "short_description": "A flavorful vegan curry made with chickpeas and coconut milk.",
@@ -48,7 +47,7 @@
         "calories": "350 calories"
     },
     {
-        "recipe_image": "https://example.com/images/beef_tacos.jpg",
+        "recipe_image": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos-1120x840.jpg",
         "recipe_id": 4,
         "recipe_name": "Beef Tacos",
         "short_description": "Mexican-style beef tacos with fresh toppings.",
@@ -57,14 +56,13 @@
             "8 taco shells",
             "100 g lettuce",
             "100 g cheddar cheese",
-            "1 tomato",
-            "50 g sour cream"
+            "1 tomato"
         ],
         "preparing_time": "20 min",
         "calories": "400 calories"
     },
     {
-        "recipe_image": "https://example.com/images/pancakes.jpg",
+        "recipe_image": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/fluffyamericanpancak_74828_16x9.jpg",
         "recipe_id": 5,
         "recipe_name": "Fluffy Pancakes",
         "short_description": "Light and fluffy pancakes perfect for breakfast.",
@@ -73,14 +71,13 @@
             "250 ml milk",
             "1 egg",
             "50 g butter",
-            "1 tsp baking powder",
             "50 g sugar"
         ],
         "preparing_time": "15 min",
         "calories": "280 calories"
     },
     {
-        "recipe_image": "https://example.com/images/grilled_salmon.jpg",
+        "recipe_image": "https://hips.hearstapps.com/del.h-cdn.co/assets/18/11/2048x1152/hd-aspect-1520957481-grilled-salmon-horizontal.jpg?resize=1200:*",
         "recipe_id": 6,
         "recipe_name": "Grilled Salmon",
         "short_description": "Delicious grilled salmon served with a lemon garlic sauce.",
