@@ -3,10 +3,10 @@ import { IoMdTime } from "react-icons/io";
 import { AiOutlineFire } from "react-icons/ai";
 import Ingrediants from "./Ingrediants/Ingrediants";
 
-const Recipie = ({ recipie }) => {
-    const { recipe_image, recipe_name, short_description, ingredients } = recipie;
-    const newIng = [...ingredients];
+const Recipie = ({ recipie, handleSelectedRecipie }) => {
 
+    const { recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = recipie;
+    const newIng = [...ingredients];
     // State to handle hover effect
     const [isHovered, setIsHovered] = useState(false);
 
@@ -46,15 +46,15 @@ const Recipie = ({ recipie }) => {
                 <div className="flex gap-2 items-center my-auto text-gray-600">
                     <div className="flex gap-2 items-center">
                         <span> <IoMdTime /> </span>
-                        <small> 30 minutes</small>
+                        <small>{preparing_time}</small>
                     </div>
                     <div className="flex gap-2 items-center ">
                         <span><AiOutlineFire /></span>
-                        <small>900 Calories</small>
+                        <small>{calories}</small>
                     </div>
                 </div>
                 <div className="card-actions">
-                    <button className="bg-green-500 px-5 py-2 rounded-3xl text-white ">Want to cook</button>
+                    <button onClick={() => handleSelectedRecipie(recipie)} className="bg-green-500 px-5 py-2 rounded-3xl text-white ">Want to cook</button>
                 </div>
             </div>
         </div>

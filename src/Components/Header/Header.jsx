@@ -7,7 +7,7 @@ const Header = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 w-11/12 lg:w-10/12 mx-auto gap-4 sm:gap-0">
                 {/* Logo / Title */}
                 <div className="text-center sm:text-left">
-                    <h2 className="text-lg sm:text-xl lg:text-2xl font-bold">Recipe Calories</h2>
+                    <h2 className="text-lg sm:text-xl lg:text-2xl font-bold">Taste N Track</h2>
                 </div>
 
                 {/* Navigation Links */}
